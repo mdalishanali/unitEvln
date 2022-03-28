@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { AddMeetup } from "../AddMeetup/AddMeetup";
 export const Home = () => {
   let [meetList, setMeetList] = useState([]);
   useEffect(() => {
@@ -15,7 +16,7 @@ export const Home = () => {
   console.log(meetList);
   return (
     <div className="homeContainer">
-      {[]
+      {meetList
         .filter((el) => {}) // Filter on the basis of Users interests and location (both true)
         .map((el) => {
           return (
@@ -41,14 +42,15 @@ export const Home = () => {
             <option value="mumbai">Mumbai</option>
           </select>
         </div>
-        <Link to={`add your route here`}> Add Meetup</Link>
+        <Link to={"/addMeet"}> Add Meetup</Link>
+        <AddMeetup />
         <h1>Subscribed Events</h1>
         <div className="subscribedEvents">
           {/* All user subcribed events should be displayed here in an ascending order of date */}
 
           {meetList.map((el) => {
             return (
-              <Link to={`add route here`} className="events">
+              <Link to={`/meetup/:${el.id}`} className="events">
                 {/* Each event should have these elements/children (divs):
                     ex : title, theme, description, date, time, location, image(optional)
                     the classNames should be also : title, theme, description, date, time, location, image(optional) */}

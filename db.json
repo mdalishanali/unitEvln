@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Saunter Strech",
-      "location": "bangalore",
+      "location": "Bangalore",
       "date": "2022-03-25",
       "time": "23:59",
       "theme": "technology",
@@ -13,7 +13,7 @@
     {
       "id": 2,
       "title": "Saunter Strech",
-      "location": "bangalore",
+      "location": "Kolkata",
       "date": "2022-03-25",
       "time": "23:59",
       "theme": "technology",
@@ -29,6 +29,18 @@
       "theme": "technology",
       "description": "Random Event",
       "image": "https://secure-content.meetupstatic.com/images/classic-events/502596286/333x188.webp"
+    },
+    {
+      "data": {
+        "title": "adfad",
+        "location": "kolkata",
+        "date": "adfadf",
+        "time": "adfasdf",
+        "theme": "movies",
+        "description": "afdad adfasd",
+        "image": "https://secure-content.meetupstatic.com/images/classic-events/502596286/333x188.webp"
+      },
+      "id": 4
     }
   ]
 }

@@ -1,14 +1,51 @@
-// User should be able to add/create new meetups 
+// User should be able to add/create new meetups
 
+import { useState } from "react";
+import axios from "axios";
 export const AddMeetup = () => {
+  const initState = {
+    title: "",
+    location: "",
+    date: "",
+    time: "",
+    theme: "",
+    description: "",
+    image: "",
+  };
+  const [data, setData] = useState(initState);
+  const handleChange = (e) => {
+    let { className, value, type } = e.target;
+
+    setData({ ...data, [className]: value });
+  };
+  console.log(data);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    PostReq();
+  };
+
+  const PostReq = () => {
+    axios
+      .post("http://localhost:8080/meetups", {
+        data,
+      })
+      .then(function ({ data }) {
+        console.log(data);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  };
+
   return (
     <div className="addMeetupContainer">
-      <form>
+      <form onSubmit={handleSubmit}>
         <h1>Add Meetup</h1>
         <label>title</label>
-        <input type="text" className="title" onChange={() => { }} required />
+        <input type="text" className="title" onChange={handleChange} required />
         <label>Location</label>
-        <select value={""} className="location" onChange={(event) => { }}>
+        <select value={""} className="location" onChange={handleChange}>
           <option value=""></option>
           <option value="bangalore">Bangalore</option>
           <option value="kolkata">Kolkata</option>
@@ -20,7 +57,7 @@ export const AddMeetup = () => {
         <input
           type="text"
           className="date"
-          onChange={(event) => { }}
+          onChange={handleChange}
           placeholder="format YYYY-MM-DD"
           required
         />
@@ -29,13 +66,13 @@ export const AddMeetup = () => {
         <input
           type="text"
           className="time"
-          onChange={(event) => { }}
+          onChange={handleChange}
           placeholder="format HH:MM"
           required
         />
         <br />
         <label>Theme</label>
-        <select value={""} className="theme" onChange={(event) => { }}>
+        <select value={""} className="theme" onChange={handleChange}>
           <option value="">-----------</option>
           <option value="technology">Technology</option>
           <option value="food">Food</option>
@@ -48,18 +85,13 @@ export const AddMeetup = () => {
         <input
           type="text"
           className="description"
-          onChange={(event) => { }}
+          onChange={handleChange}
           placeholder="Description"
           required
         />
         <br />
         <label>Image</label>
-        <input
-          type="text"
-          className="image"
-          onChange={(event) => { }}
-          required
-        />
+        <input type="text" className="image" onChange={handleChange} required />
         <br />
         <input className="submitMeetupForm" type="submit" />
       </form>

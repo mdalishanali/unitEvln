@@ -53,7 +53,8 @@
         "image": "adfasdf",
         "culture": true
       },
-      "id": 3
+      "id": 3,
+      "subscribed": []
     },
     {
       "data": {

@@ -42,10 +42,40 @@ export const LoginSignUp = () => {
       });
   };
 
-  const [text, setText] = useState("");
+  const initLog = {
+    name: "",
+    password: "",
+  };
+
+  const [login, setLogin] = useState(initLog);
+
+  const handleLogin = (e) => {
+    let { className, value } = e.target;
+    setData({ ...login, [className]: value });
+  };
+  const handleSubmitLogin = (e) => {
+    e.preventDefault();
+    sendReq();
+  };
+
+  const sendReq = () => {
+    axios
+      .post("http://localhost:8090/users", {
+        login,
+      })
+      .then(function ({ data }) {
+        console.log(data.data);
+        localStorage.setItem("userLoginDetails", data.data.name);
+        dispatch(userLogin(data.data));
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+  };
+
   return (
     <div className="loginSignUp">
-      <form className="signUp" onSubmit={handleSubmit}>
+      <form className="signUp" onSubmit={handleSubmitLogin}>
         <h1>SignUp</h1>
         <label>name</label>
         <input type="text" className="name" onChange={handleChange} required />
@@ -94,13 +124,13 @@ export const LoginSignUp = () => {
       <form className="login" onSubmit={(e) => {}}>
         <h1>Login</h1>
         <label>name</label>
-        <input type="text" className="name" onChange={(event) => {}} required />
+        <input type="text" className="name" onChange={handleLogin} required />
         <br />
         <label>password</label>
         <input
           type="text"
           className="password"
-          onChange={(event) => {}}
+          onChange={handleLogin}
           required
         />
         <br />

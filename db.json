@@ -1,0 +1,34 @@
+{
+  "meetups": [
+    {
+      "id": 1,
+      "title": "Saunter Strech",
+      "location": "bangalore",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "technology",
+      "description": "Random Event",
+      "image": "https://secure-content.meetupstatic.com/images/classic-events/502596286/333x188.webp"
+    },
+    {
+      "id": 2,
+      "title": "Saunter Strech",
+      "location": "bangalore",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "technology",
+      "description": "Random Event",
+      "image": "https://secure-content.meetupstatic.com/images/classic-events/502596286/333x188.webp"
+    },
+    {
+      "id": 3,
+      "title": "Saunter Strech",
+      "location": "bangalore",
+      "date": "2022-03-25",
+      "time": "23:59",
+      "theme": "technology",
+      "description": "Random Event",
+      "image": "https://secure-content.meetupstatic.com/images/classic-events/502596286/333x188.webp"
+    }
+  ]
+}

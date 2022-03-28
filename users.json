@@ -1,0 +1,793 @@
+{
+  "users": [
+    {
+      "name": "Samuel",
+      "password": "secret",
+      "location": "bangalore",
+      "interests": [
+        "technology",
+        "food",
+        "movies",
+        "culture",
+        "art",
+        "drama"
+      ],
+      "image": "https://images.unsplash.com/photo",
+      "id": 1,
+      "subscribed": [
+        1,
+        5
+      ]
+    },
+    {
+      "data": {
+        "name": "adfasd",
+        "password": "dfasd",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "adfasdf",
+        "culture": true
+      },
+      "id": 2
+    },
+    {
+      "data": {
+        "name": "adfasd",
+        "password": "dfasd",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "adfasdf",
+        "culture": true
+      },
+      "id": 3
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "bangalore",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan",
+        "food": true,
+        "culture": true
+      },
+      "id": 4
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 5
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "bangalore",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 6
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "bangalore",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 7
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "bangalore",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 8
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "bangalore",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 9
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "bangalore",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 10
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "bangalore",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 11
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "bangalore",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 12
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "bangalore",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 13
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "bangalore",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 14
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "bangalore",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 15
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "bangalore",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 16
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "bangalore",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 17
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "bangalore",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 18
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 19
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 20
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 21
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 22
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 23
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 24
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 25
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 26
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 27
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 28
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 29
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 30
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 31
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 32
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 33
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 34
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 35
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 36
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 37
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 38
+    },
+    {
+      "data": {
+        "name": "alishanafdadfadf",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 39
+    },
+    {
+      "data": {
+        "name": "alishanafdadfadf",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 40
+    },
+    {
+      "data": {
+        "name": "alishanafdadfadf",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 41
+    },
+    {
+      "data": {
+        "name": "alishanafdadfadf",
+        "password": "alishan",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "alishan"
+      },
+      "id": 42
+    },
+    {
+      "data": {
+        "name": "fadf",
+        "password": "adfa",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "afd"
+      },
+      "id": 43
+    },
+    {
+      "data": {
+        "name": "fadf",
+        "password": "adfa",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "afd"
+      },
+      "id": 44
+    },
+    {
+      "data": {
+        "name": "fadf",
+        "password": "adfa",
+        "location": "kolkata",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "afd"
+      },
+      "id": 45
+    },
+    {
+      "data": {
+        "name": "alishan",
+        "password": "ali",
+        "location": "delhi",
+        "interests": [
+          "technology",
+          "food",
+          "movies",
+          "culture",
+          "art",
+          "drama"
+        ],
+        "image": "a",
+        "food": true
+      },
+      "id": 46
+    }
+  ]
+}
